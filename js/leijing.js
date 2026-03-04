@@ -4,7 +4,7 @@ const cheerio = createCheerio()
 const appConfig = {
   ver: 1,
   title: '雷鲸',
-  site: 'https://www.leijing.xyz',
+  site: 'https://www.leijing1.com',
   tabs: [
           {
               name: '剧集',
