@@ -58,7 +58,7 @@ async function getCards(ext) {
 
     const { data } = await $fetch.get(url, {
         headers: {
-          'Referer': 'https://www.leijing.xyz/',
+          'Referer': 'https://www.leijing1.com/',
           'User-Agent': UA,
         }
     });
@@ -86,7 +86,7 @@ $('.topicItem').each((index, each) => {
     vod_pic: '',
     vod_remarks: '',
     ext: {
-      url: `https://www.leijing.xyz/${href}`,
+      url: `https://www.leijing1.com/${href}`,
     },
   });
 });
@@ -104,7 +104,7 @@ async function getTracks(ext) {
 
     const { data } = await $fetch.get(url, {
         headers: {
-          'Referer': 'https://www.leijing.xyz/',
+          'Referer': 'https://www.leijing1.com/',
           'User-Agent': UA,
         }
     });
@@ -183,7 +183,7 @@ $('.topicItem').each((index, each) => {
     vod_pic: '',
     vod_remarks: '',
     ext: {
-      url: `https://www.leijing.xyz/${href}`,
+      url: `https://www.leijing1.com/${href}`,
     },
   });
 });
