@@ -4,7 +4,7 @@
  * 版本：2.1
  * 运行环境：PHP 7.4.33
  * 功能：从URL获取XML，填充空档，生成同名XML文件和GZ压缩文件
- * 用法：运行 php wiko.php
+ * 用法：运行 php noepg.php
  */
 
 // 配置参数
